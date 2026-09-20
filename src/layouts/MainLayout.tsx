@@ -53,7 +53,7 @@ function MainLayout() {
 
         <div className="border-t border-[rgba(255,255,255,0.1)]">
           <div className="page-shell flex flex-col gap-2 py-5 text-xs text-[rgba(255,255,255,0.45)] sm:flex-row sm:items-center sm:justify-between">
-            <p>&copy; {new Date().getFullYear()} Krisantus Collection. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Krisantus Special. All rights reserved.</p>
             <p>Creative printing &middot; branding &middot; customization</p>
           </div>
         </div>
