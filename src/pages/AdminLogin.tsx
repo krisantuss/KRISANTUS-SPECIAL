@@ -34,13 +34,13 @@ function AdminLogin() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-[var(--brand-paper)] px-4 py-12 sm:px-6">
       <div className="w-full max-w-md border border-[var(--brand-line)] bg-white p-6 sm:p-10">
-        <p className="section-label">Studio CMS</p>
+        <p className="section-label">Website CMS</p>
         <h1 className="mt-4 font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
           Admin Login
         </h1>
 
         <p className="mt-3 text-sm text-[rgba(16,18,22,0.68)]">
-          Sign in to manage Krisantus Collection.
+          Sign in to manage Krisantus Special.
         </p>
 
         <form onSubmit={handleLogin} className="mt-8 space-y-5">

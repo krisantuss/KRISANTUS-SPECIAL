@@ -4,7 +4,7 @@ import { supabase } from '../lib/supabase'
 import type { BusinessSettings, PortfolioItem, Service } from '../types'
 
 const defaultSettings: BusinessSettings = {
-  business_name: 'Krisantus Collections',
+  business_name: 'Krisantus Special',
   description: 'Creative printing, design, branding, and customization services for businesses and personal projects.',
   phone: '', whatsapp: '', email: '', address: '', opening_hours: '', social_links: {},
 }
@@ -170,7 +170,7 @@ function Home() {
           <p className="section-label">About us</p>
           <h2 className="mt-2 section-title">Your Vision, Our Creativity</h2>
           <p className="mt-4 max-w-lg text-sm leading-6 text-[rgba(16,18,22,0.68)]">
-            Krisantus Collection is a creative printing and design studio committed to delivering high-quality, innovative and affordable solutions. We help individuals and businesses build strong brands through professional design, print and customization services.
+            Krisantus Special is a creative printing and design studio committed to delivering high-quality, innovative and affordable solutions. We help individuals and businesses build strong brands through professional design, print and customization services.
           </p>
           <Link to="/about" className="brand-button brand-button--sm mt-6">Learn More</Link>
         </div>

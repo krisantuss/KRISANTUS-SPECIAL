@@ -43,8 +43,8 @@ function AdminLayout() {
   const sidebarContent = (
     <>
       <div className="border-b border-[var(--brand-line)] px-6 py-7">
-        <p className="text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-[var(--brand-olive)]">Studio CMS</p>
-        <h1 className="mt-3 font-display text-xl font-semibold tracking-[-0.01em]">Krisantus Collection</h1>
+        <p className="text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-[var(--brand-olive)]">Website CMS</p>
+        <h1 className="mt-3 font-display text-xl font-semibold tracking-[-0.01em]">Krisantus Special</h1>
         <p className="mt-1 text-xs text-[rgba(16,18,22,0.54)]">Content management</p>
       </div>
 
@@ -92,7 +92,7 @@ function AdminLayout() {
         aria-label="Admin navigation"
       >
         <div className="flex items-center justify-between border-b border-[var(--brand-line)] px-4 py-4">
-          <p className="text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-[var(--brand-olive)]">Studio CMS</p>
+          <p className="text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-[var(--brand-olive)]">Website CMS</p>
           <button
             type="button"
             onClick={() => setDrawerOpen(false)}

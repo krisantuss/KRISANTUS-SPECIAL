@@ -31,7 +31,7 @@ function AdminDashboard() {
     <div className="space-y-8 sm:space-y-10">
       <section className="border-b border-[var(--brand-line)] pb-6 sm:pb-8">
         <p className="section-label">Overview</p>
-        <h1 className="mt-3 font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl lg:text-5xl">Good morning, studio.</h1>
+        <h1 className="mt-3 font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl lg:text-5xl">Good day, Admin</h1>
         <p className="mt-3 max-w-xl text-sm text-[rgba(16,18,22,0.68)] sm:text-base">Keep the public-facing work sharp, current, and ready for the next client conversation.</p>
       </section>
 
